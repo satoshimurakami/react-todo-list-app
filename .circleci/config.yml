@@ -38,5 +38,5 @@ jobs:
 
       - run: npm run netlify:deploy
 
-      - codecov/upload:   
-        file: './coverage/clover.xml'      
+      # - codecov/upload:   
+      #   file: './coverage/clover.xml'      
