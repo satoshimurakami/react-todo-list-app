@@ -18,5 +18,6 @@ describe("Add task form", () => {
     expect(handleSubmit).toHaveBeenCalled();
     expect(input.value).toBe("");
     //meu comentario 2
+    //MAIS OUTRO COMENTARIO
   });
 });
