@@ -33,7 +33,7 @@ const ToDoList = () => {
       <h5>Todo list Application by Celio</h5>
       <div data-testid="list-container">
         {tasks.map((task, index) => (
-          <div data-testid="todo-item" className="todo" key={index}>
+          <div data-testid="todo-item2" className="todo" key={index}>
             <span
               onClick={() => toggleTask(index)}
               className={
